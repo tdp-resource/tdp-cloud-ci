@@ -1,9 +1,10 @@
 #/bin/sh
 
+cd $GITHUB_WORKSPACE
+
 git clone https://github.com/tdp-resource/tdp-cloud.git
 git clone https://github.com/tdp-resource/tdp-cloud-ui.git
 
-cd $GITHUB_WORKSPACE
 chmod +x */build.sh
 
 cd $GITHUB_WORKSPACE/tdp-cloud-ui
