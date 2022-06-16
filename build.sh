@@ -3,15 +3,12 @@
 git clone https://github.com/tdp-resource/tdp-cloud.git
 git clone https://github.com/tdp-resource/tdp-cloud-ui.git
 
-set
-
+cd $GITHUB_WORKSPACE
 chmod +x */build.sh
 
-cd ./tdp-cloud-ui
+cd $GITHUB_WORKSPACE/tdp-cloud-ui
 npm i && ./build.sh
 
-cd ../
-cp -av ./tdp-cloud-ui/build/* ./tpd-cloud/front/
-
-cd ./tdp-cloud
+cd $GITHUB_WORKSPACE/tdp-cloud
+cp -av ../tdp-cloud-ui/build/* front/
 go mod tidy && ./build.sh
