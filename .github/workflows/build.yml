@@ -25,9 +25,9 @@ jobs:
 
       - uses: softprops/action-gh-release@v1
         with:
-          tag_name: v0.0.7
-          name: Release v0.0.7
-          body: 支持查看域名解析列表
+          tag_name: v0.0.8
+          name: Release v0.0.8
+          body: 支持查看清理服务器详情及流量统计
           draft: false
           prerelease: false
           files: |
