@@ -25,9 +25,9 @@ jobs:
 
       - uses: softprops/action-gh-release@v1
         with:
-          tag_name: v0.0.10
-          name: Release v0.0.10
-          body: 增加数据缓存，提升页面加载速度
+          tag_name: v0.0.11
+          name: Release v0.0.11
+          body: 增加SSH终端
           draft: false
           prerelease: false
           files: |
