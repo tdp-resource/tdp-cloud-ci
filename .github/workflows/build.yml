@@ -25,9 +25,9 @@ jobs:
 
       - uses: softprops/action-gh-release@v1
         with:
-          tag_name: v0.0.12
-          name: Release v0.0.12
-          body: 支持快捷命令
+          tag_name: v0.0.13
+          name: Release v0.0.13
+          body: 支持VNC终端
           draft: false
           prerelease: false
           files: |
